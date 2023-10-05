@@ -172,6 +172,8 @@
   },
   "active": "aada5bb7fda4ce64",
   "lastOpenFiles": [
+    "Esercizi/book.txt",
+    "Esercizi/pg84.txt",
     "1. Intro.md",
     "2. Full-text preprocessing.md",
     "a. NLTK.md",
@@ -184,7 +186,6 @@
     "Esercizi/env/conda-meta/setuptools-68.0.0-py311hca03da5_0.json",
     "Esercizi/env/conda-meta/regex-2022.7.9-py311h80987f9_0.json",
     "Esercizi/env/conda-meta/joblib-1.2.0-py311hca03da5_0.json",
-    "Esercizi/env/conda-meta/click-8.0.4-py311hca03da5_0.json",
     "Esercizi/env/lib/python3.11/site-packages/nltk-3.8.1.dist-info/README.md",
     "Esercizi/env/lib/python3.11/site-packages/nltk-3.8.1.dist-info/AUTHORS.md",
     "Esercizi/env/lib/python3.11/idlelib/Icons/tk.gif",
