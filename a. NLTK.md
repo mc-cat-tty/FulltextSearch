@@ -41,35 +41,20 @@ t = treebank.parsed_sents('wsj_0001.mrg')[0]
 t.draw()
 ```
 
-# Thesaurus
-*Iponimo*: auto è un iponimo di mezzo di trasporto
-*Iperonimo*: mezzo di trasporto è iperonimo di auto
+# Word disambiguation
+```python
+from nltk.corpus import wordnet as wn
+wn.synsets('dog')
+wn.synsets('dog', wn.VERB) # per restringere la ricerca a una certa part of speech
+dog = wn.synset('dog.n.01')
+dog.definition()
+dog.hypernyms()  # iperonimi (sginificato di livello superiore
+ld = dog.lemmas()  # lista di lemmi con quel significato (navigo al contrario il grafo)
+ld[0].antonyms()
+wn.morphy('denied', wn.VERB)  # Lemmatizer che sfrutta WordNet per morphing delle parole 
+```
 
-#Ricorda con ipo (sotto) e iper (sopra) - ipovedente, ecc.
+L'ordine in WordNon è casuale, infatti la logica di ordinamento è dal significato più diffuso a quello meno diffusa.
 
-> **Polisemia** = relazione tra parole identiche ma con semantica diversa
-
-Esempi di thesaurus:
-- Roget (primo dizionario, 1852)
-- Wordnet
-- INSPEC
-- MESH
-
-#Attenzione il plurale di *thesaurus* è *thesauri*
-#Vedi Pubmed e MeSH (Ontologia terminologica): https://www.ncbi.nlm.nih.gov/mesh/
-
-Perché usare thesaurus? avere un vocabolario controllato, affidabile, con basso rumore
-
-Non necessari per ricerche generiche, sono utili soprattutto per i campi ristretti/settoriali
-
-## TIT - Thesaurus Index Term
-#Attenzione non è detto che un concetto sia espresso da una sola parola
-
-Nei thesaurus il dato strutturato da essi memorizzato è: concetto (unità semantica di base, costituito da una parola, più parole o frasi) - definizione (spiegazione)
-
-TIT relationship -> relazioni di generalizzazione (iperonimia) -  specializzazione (iponimia) e, sullo stesso livello, appartenenza allo stesso oggetto/ambito/ecc.
-
-Esempio di *mouse*, parola polisemica: http://wordnetweb.princeton.edu/perl/webwn?s=mouse&sub=Search+WordNet&o2=&o0=1&o8=1&o1=1&o7=&o5=&o9=&o6=&o3=&o4=&h=
-
-**Grafo bipartito** che collega parole, concetti a *synset*
+Morphy è usato in WordNet per portare inflessioni di una parola alla forma base, l'unica versione della parola memorizzata nei thesaurus.
 

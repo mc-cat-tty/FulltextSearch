@@ -13,6 +13,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "3. Thesaurus.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ae81ae43000bd5be",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "a. NLTK.md",
                 "mode": "source",
                 "source": false
@@ -25,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Full-text preprocessing.md",
+                "file": "a. NLTK.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "a. NLTK.md",
+                "file": "3. Thesaurus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "a. NLTK.md",
+                "file": "3. Thesaurus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "a. NLTK.md"
+                "file": "3. Thesaurus.md"
               }
             }
           }
@@ -172,11 +184,12 @@
   },
   "active": "aada5bb7fda4ce64",
   "lastOpenFiles": [
+    "2. Full-text preprocessing.md",
+    "a. NLTK.md",
+    "3. Thesaurus.md",
     "Esercizi/book.txt",
     "Esercizi/pg84.txt",
     "1. Intro.md",
-    "2. Full-text preprocessing.md",
-    "a. NLTK.md",
     "Esercizi/env.yaml",
     "Esercizi/env.yml",
     "Esercizi/env/conda-meta/pip-23.2.1-py311hca03da5_0.json",
@@ -185,7 +198,6 @@
     "Esercizi/env/conda-meta/tqdm-4.65.0-py311hb6e6a13_0.json",
     "Esercizi/env/conda-meta/setuptools-68.0.0-py311hca03da5_0.json",
     "Esercizi/env/conda-meta/regex-2022.7.9-py311h80987f9_0.json",
-    "Esercizi/env/conda-meta/joblib-1.2.0-py311hca03da5_0.json",
     "Esercizi/env/lib/python3.11/site-packages/nltk-3.8.1.dist-info/README.md",
     "Esercizi/env/lib/python3.11/site-packages/nltk-3.8.1.dist-info/AUTHORS.md",
     "Esercizi/env/lib/python3.11/idlelib/Icons/tk.gif",
