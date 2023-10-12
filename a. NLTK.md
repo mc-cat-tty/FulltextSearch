@@ -58,3 +58,18 @@ L'ordine in WordNon è casuale, infatti la logica di ordinamento è dal signific
 
 Morphy è usato in WordNet per portare inflessioni di una parola alla forma base, l'unica versione della parola memorizzata nei thesaurus.
 
+## Word similarity
+```python
+dog = wn.synsets('dog')[0]
+cat = wn.synsets('cat')[0]
+
+dog.wup_similarity(cat)  # dog e cat sono synsets - distanza di WuPalmer
+dog.path_similarity(cat)  # path similarity
+
+from nltk.corpus import wordnet_ic
+brown_ic = wordnet_ic.ic('ic-brown.dat')
+wn.res_similarity(brown_ic, dog)
+cat.res_similarity(dog, brown_ic)
+```
+
+#Attenzione considera sempre le curve di ogni metrica

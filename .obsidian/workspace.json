@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Full-text preprocessing.md",
+                "file": "a. NLTK.md",
                 "mode": "source",
                 "source": false
               }
@@ -184,9 +184,9 @@
   },
   "active": "aada5bb7fda4ce64",
   "lastOpenFiles": [
-    "2. Full-text preprocessing.md",
     "a. NLTK.md",
     "3. Thesaurus.md",
+    "2. Full-text preprocessing.md",
     "Esercizi/book.txt",
     "Esercizi/pg84.txt",
     "1. Intro.md",
