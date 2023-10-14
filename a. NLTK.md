@@ -1,9 +1,11 @@
 ```python
 import nltk
 from nltk.corpus import stopwords
+from string import punctuation
 
 tokens = nltk.word_tokenize("this is a tests") # lista di parole
 important_tokens = filter(lambda w: not w in stopwords.words('english'), tokens)
+important_tokens = filter(lambda w: not w in punctuation, tokens)
 
 wnl = nltk.WordNetLemmatizer()
 lemmatized_tokens = map(lambda w: wnl.lemmatize(w), important_tokens)
@@ -20,7 +22,7 @@ from nltk.stem.porter import PorterStemmer
 from nltk.stem.porter import LancasterStemmer
 p = PorterStemmer()
 l = LancasterStemmer() # Più approssimativo
-prt) for t in tokens])
+print([p.stem(t) for t in tokens])
 print([l.stem(t) for t in tokens])
 ```
 
@@ -68,7 +70,6 @@ dog.path_similarity(cat)  # path similarity
 
 from nltk.corpus import wordnet_ic
 brown_ic = wordnet_ic.ic('ic-brown.dat')
-wn.res_similarity(brown_ic, dog)
 cat.res_similarity(dog, brown_ic)
 ```
 
