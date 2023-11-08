@@ -3,7 +3,6 @@ import java.nio.file.Paths;
 
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.store.FSDirectory;
-import org.apache.lucene.queryparser.classic.QueryParser;
 import org.apache.lucene.document.*;
 import org.apache.lucene.index.*;
 import org.apache.lucene.search.*;
@@ -38,5 +37,6 @@ class Indexer {
     index.addDocument(doc1);
     index.addDocument(doc2);
     index.close();
+    dir.close();
 	}
 }
