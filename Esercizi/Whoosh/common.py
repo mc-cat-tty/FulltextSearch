@@ -1,0 +1,1 @@
+TEXT_REPO_PATH = "text_repo"
