@@ -13,7 +13,23 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< Updated upstream
                 "file": "1. Intro.md",
+=======
+                "file": "Z. Project.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c63efc970ce220d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. Thesaurus.md",
+>>>>>>> Stashed changes
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +101,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< Updated upstream
                 "file": "1. Intro.md",
+=======
+                "file": "Z. Project.md",
+>>>>>>> Stashed changes
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +122,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< Updated upstream
                 "file": "1. Intro.md",
+=======
+                "file": "Z. Project.md",
+>>>>>>> Stashed changes
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +149,11 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< Updated upstream
                 "file": "1. Intro.md"
+=======
+                "file": "Z. Project.md"
+>>>>>>> Stashed changes
               }
             }
           }
@@ -148,12 +176,21 @@
   },
   "active": "c63efc970ce220d1",
   "lastOpenFiles": [
+<<<<<<< Updated upstream
     "3. Thesaurus.md",
     "1. Intro.md",
     "Z. Project.md",
     "2. Full-text preprocessing.md",
     "4. Indici.md",
     "Untitled.md",
+=======
+    "2. Full-text preprocessing.md",
+    "4. Indici.md",
+    "1. Intro.md",
+    "Untitled.md",
+    "3. Thesaurus.md",
+    "Z. Project.md",
+>>>>>>> Stashed changes
     "6. Ranking.md",
     "5. DBMS for full-text indexing & searching.md",
     "9. PageRank.md",

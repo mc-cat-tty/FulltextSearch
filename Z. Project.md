@@ -52,4 +52,3 @@ Consigli: essere chiari sul *come* il problema è stato risolto, descrivendo *qu
 	- il benchmark è adatto a mostrare le performance?
 	- le misure sono adeguate a mettere a confronto le performance?
 	- efficacia della presentazione dei benchmark
-
