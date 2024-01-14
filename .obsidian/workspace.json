@@ -4,38 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "f4d2b4ba21504a4d",
+        "id": "432d45c162a0a7a8",
         "type": "tabs",
         "children": [
           {
-            "id": "c63efc970ce220d1",
+            "id": "1efde37f9e5cbafc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< Updated upstream
-                "file": "1. Intro.md",
-=======
-                "file": "Z. Project.md",
+                "file": "4. Indici.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "c63efc970ce220d1",
+            "id": "c75e0cf074ab0875",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. Thesaurus.md",
->>>>>>> Stashed changes
+                "file": "5. DBMS for full-text indexing & searching.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "eee3ed3844082487",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6. Ranking.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -101,11 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< Updated upstream
-                "file": "1. Intro.md",
-=======
-                "file": "Z. Project.md",
->>>>>>> Stashed changes
+                "file": "6. Ranking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,11 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< Updated upstream
-                "file": "1. Intro.md",
-=======
-                "file": "Z. Project.md",
->>>>>>> Stashed changes
+                "file": "6. Ranking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,11 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-<<<<<<< Updated upstream
-                "file": "1. Intro.md"
-=======
-                "file": "Z. Project.md"
->>>>>>> Stashed changes
+                "file": "6. Ranking.md"
               }
             }
           }
@@ -174,25 +171,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c63efc970ce220d1",
+  "active": "eee3ed3844082487",
   "lastOpenFiles": [
-<<<<<<< Updated upstream
-    "3. Thesaurus.md",
-    "1. Intro.md",
-    "Z. Project.md",
-    "2. Full-text preprocessing.md",
-    "4. Indici.md",
-    "Untitled.md",
-=======
-    "2. Full-text preprocessing.md",
-    "4. Indici.md",
-    "1. Intro.md",
-    "Untitled.md",
-    "3. Thesaurus.md",
-    "Z. Project.md",
->>>>>>> Stashed changes
-    "6. Ranking.md",
     "5. DBMS for full-text indexing & searching.md",
+    "4. Indici.md",
+    "3. Thesaurus and Word-Sense Disambiguation.md",
+    "2. Full-text preprocessing.md",
+    "1. Intro.md",
+    "Z. Project.md",
+    "Untitled.md",
+    "6. Ranking.md",
     "9. PageRank.md",
     "7. Benchmarking.md",
     "8. Tolerant Retrieval.md",
