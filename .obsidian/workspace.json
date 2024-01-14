@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d213134140862ee8",
+            "id": "c63efc970ce220d1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6. Ranking.md",
+                "file": "1. Intro.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6. Ranking.md",
+                "file": "1. Intro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "6. Ranking.md",
+                "file": "1. Intro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6. Ranking.md"
+                "file": "1. Intro.md"
               }
             }
           }
@@ -134,7 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 294.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,10 +146,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d213134140862ee8",
+  "active": "c63efc970ce220d1",
   "lastOpenFiles": [
-    "5. DBMS for full-text indexing & searching.md",
+    "3. Thesaurus.md",
+    "1. Intro.md",
+    "Z. Project.md",
+    "2. Full-text preprocessing.md",
+    "4. Indici.md",
+    "Untitled.md",
     "6. Ranking.md",
+    "5. DBMS for full-text indexing & searching.md",
     "9. PageRank.md",
     "7. Benchmarking.md",
     "8. Tolerant Retrieval.md",
@@ -164,13 +170,8 @@
     "Esercizi/Whoosh/text_repo/MAIN_jehbkw8eedw8yb2k.seg",
     "Esercizi/Whoosh/text_repo/MAIN_ufs2q7w4kyhksepm.seg",
     "B. Sentiment analysis.md",
-    "3. Thesaurus.md",
-    "2. Full-text preprocessing.md",
-    "1. Intro.md",
-    "4. Indici.md",
     "C. Word2vec.md",
     "A. NLTK.md",
-    "Z. Project.md",
     "9. Puntatori in avanti.md",
     "\"./A..md",
     "A..md",
