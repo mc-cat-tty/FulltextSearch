@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4. Indici.md",
+                "file": "5. DBMS for full-text indexing & searching.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313.5
+    "width": 353.5026054382324
   },
   "right": {
     "id": "4b613fd246d76aa3",
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6. Ranking.md",
+                "file": "5. DBMS for full-text indexing & searching.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "6. Ranking.md",
+                "file": "5. DBMS for full-text indexing & searching.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6. Ranking.md"
+                "file": "5. DBMS for full-text indexing & searching.md"
               }
             }
           }
@@ -159,7 +158,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 294.5
+    "width": 296.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,16 +170,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "eee3ed3844082487",
+  "active": "1efde37f9e5cbafc",
   "lastOpenFiles": [
-    "5. DBMS for full-text indexing & searching.md",
     "4. Indici.md",
-    "3. Thesaurus and Word-Sense Disambiguation.md",
-    "2. Full-text preprocessing.md",
     "1. Intro.md",
+    "2. Full-text preprocessing.md",
+    "3. Thesaurus and Word-Sense Disambiguation.md",
+    "6. Ranking.md",
+    "5. DBMS for full-text indexing & searching.md",
     "Z. Project.md",
     "Untitled.md",
-    "6. Ranking.md",
     "9. PageRank.md",
     "7. Benchmarking.md",
     "8. Tolerant Retrieval.md",
