@@ -21,7 +21,7 @@ Il DBMS (in questo caso PostgreSQL) permetterà di fare preprocessing con un par
 ## Full text search
 > Un **documento** o **textual field** è l'unità di ricerca di un full text search system.
 
-Un documento è normalmente un textual field all'interno della riga di una tabella o la concatenazione di campi, memorizzati non necessariamente nella stessa tabella.
+Un documento è normalmente un textual field all'interno della riga di una tabella o la concatenazione di campi, memorizzati non necessariamente nella stessa tabella (costruito dinamicamente).
 
 ```sql
 SELECT title || ' ' || author || ' ' || body AS document
@@ -33,8 +33,8 @@ WHERE mid = 12;
 
 Questa query ritorna, per ogni entry della tabella *messages* con *mid* pari a 12, il valore della colonna tabella concatenato (con spazio) ad autore e corpo.
 ### Text Search Types
-Vengono forniti da PostgreSQL due tipi di dati progettati per supportare full-text search:
-- `tsvector` è una lista ordinata di lessemi distinti. Viene fatta la lemmatizzazione (lemma = parola normalizzata rispetto a un dizionario di riferimento) delle parole.
+Vengono forniti da PostgreSQL due tipi di dati progettati per supportare full-text search (TS - Text Search):
+- `tsvector` è una lista ordinata di lessemi distinti. Viene usata la lemmatizzazione (lemma = parola normalizzata rispetto a un dizionario di riferimento) delle parole.
 - `tsquery` memorizza i lessemi che devono essere cercati e permette di concatenarli con operatori logici di and (`&`), or (`|`) and not (`!`). La sintassi delle tsquery prevede: si possono usare operatori di AND, OR, NOT come prima e l'operatore di FOLLOWED BY (`<->`) usato per il phrasal retrieval; oppure l'operatore di PROXIMITY SEARCH (`<N>`) con N numero esatto di distanza (numero di parole tra gli operandi + 1, che equivale al numero di spazi).
 
 Esistono funzioni per fare pre-processing, prima di interpretare la frase come i due tipi sopra spiegati:
@@ -69,11 +69,11 @@ WHERE to_tsvector(COL1 || ' ' || COL2) @ ts_query(QUERY);
 #Nota l'inline concatenation
 ## Indici
 Ci sono due tipi di indici che possono essere usati in PostgreSQL:
-- GiST - Generalized Search Tree. Lossy: può produrre falsi match.
+- GiST - Generalized Search Tree; generalizzazione del B+ tree. Lossy: può produrre falsi match.
 - GIN - Generalized Inverted Index. Da preferirsi per text-search.
 
 ```sql
-CREATE INDEX users_idx ON TABLE users USING GIN(email)
+CREATE INDEX users_idx ON TABLE users USING GIN(email);
 ```
 
 #Nota che la colonna deve essere di tipo `tsvector`. Trasforma la colonna se `varchar`, addirittura aggiungendo una colonna del tipo corretto come sotto, da mantenere accuratamente aggiornata:
@@ -177,7 +177,7 @@ Il risultato di `IndexSearcher.search(Query, int)` contiene diversi campi:
 
 Esiste un wrapper di Lucene scritto in Python: _PyLucene_
 # Whoosh
-Successore di Lucene, per Python.
+Successore di Lucene, scritto in Python.
 
 Lo schema elenca i campi che devono essere indicizzati. Ogni campo può essere indicizzato e/o memorizzato. Nell'esempio sottostante il contenuto è indicizzato ma non memorizzato nell'indice; mentre titolo e percorso sono sia indicizzati che memorizzati.
 Schema dell'indice:
