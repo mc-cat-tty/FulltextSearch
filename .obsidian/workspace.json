@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5. DBMS for full-text indexing & searching.md",
+                "file": "D. Word2vec.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5. DBMS for full-text indexing & searching.md",
+                "file": "B. DBMS for full-text indexing & searching.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5. DBMS for full-text indexing & searching.md",
+                "file": "D. Word2vec.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5. DBMS for full-text indexing & searching.md",
+                "file": "D. Word2vec.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5. DBMS for full-text indexing & searching.md"
+                "file": "D. Word2vec.md"
               }
             }
           }
@@ -170,14 +170,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1efde37f9e5cbafc",
+  "active": "606da5777ee2556b",
   "lastOpenFiles": [
+    "C. Sentiment analysis.md",
+    "B. DBMS for full-text indexing & searching.md",
+    "A. NLTK.md",
     "4. Indici.md",
     "1. Intro.md",
     "2. Full-text preprocessing.md",
     "3. Thesaurus and Word-Sense Disambiguation.md",
     "6. Ranking.md",
-    "5. DBMS for full-text indexing & searching.md",
     "Z. Project.md",
     "Untitled.md",
     "9. PageRank.md",
@@ -193,9 +195,7 @@
     "Esercizi/Whoosh/text_repo/_MAIN_0.toc",
     "Esercizi/Whoosh/text_repo/MAIN_jehbkw8eedw8yb2k.seg",
     "Esercizi/Whoosh/text_repo/MAIN_ufs2q7w4kyhksepm.seg",
-    "B. Sentiment analysis.md",
-    "C. Word2vec.md",
-    "A. NLTK.md",
+    "D. Word2vec.md",
     "9. Puntatori in avanti.md",
     "\"./A..md",
     "A..md",

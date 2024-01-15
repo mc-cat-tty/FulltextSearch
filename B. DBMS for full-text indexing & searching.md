@@ -1,9 +1,9 @@
 # PostgreSQL
 Cosa abbiamo già visto? Ricerca testuale con `LIKE`, `ILIKE`, `~`, `~*`:
-- `SELECT str LIKE matching_str`
-- `SELECT str ILIKE matching_str`
-- `SELECT str ~ regex` Cerca di matchare la RE su **parte** della stringa e ritorna lo stato
-- `SELECT str ~* regex` Cerca di fare un match case-insensitive della RE
+- `WHERE str LIKE matching_str`
+- `WHERE str ILIKE matching_str`
+- `WHERE str ~ regex` Cerca di matchare la RE su **parte** della stringa e ritorna lo stato
+- `WHERE str ~* regex` Cerca di fare un match case-insensitive della RE
 - I due operatori precedenti possono essere negati: `!~`, `!~*`
 
 #Ricorda di usare le ancore se vuoi un match totale quando usi le regex
@@ -12,7 +12,7 @@ Cosa vedremo? full text search, text tokenization, full text indexing (inverted 
 
 #vedi https://www.postgresql.org/docs/current/textsearch.html
 
-**Textual item**: *documenti* nel senso stretto del termine, ma non necessariamente un'intera pagina di testo
+**Textual item**: *documento* nel senso stretto del termine, ma non necessariamente un'intera pagina di testo, può anche derivare dalla concatenazione di campi di una tabella relazionale.
 
 ## Full text indexing
 >Full text indexing permette ai documenti di essere preprocessati e di creare un indice per velocizzare la ricerca successivamente.
