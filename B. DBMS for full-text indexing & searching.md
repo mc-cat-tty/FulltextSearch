@@ -147,12 +147,11 @@ Ricorda il paradigma: store first and query later. Si apre l'indice prima in scr
 
 La cartella con i documenti che codificano l'indice sono file binari non direttamente intelleggibili.
 
-#Completa 
 ## Query syntax
 Una query è una serie di clausole. Ogni clausola può avere un prefisso:
 - *+* clausola richiesta
 - *-* clausola vietata
-- *:* #Completa 
+- *:* per specificare il campo nella forma `campo: valore` 
 
 Esempio:
 ```java
