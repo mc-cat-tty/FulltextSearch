@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -146,7 +147,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "75c889165352fb83",
+  "active": "80fb41ff2e3da25e",
   "lastOpenFiles": [
     "8. Benchmarking.md",
     "7. PageRank.md",
