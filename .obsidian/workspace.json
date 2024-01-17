@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "7. PageRank.md",
+                "file": "8. Benchmarking.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "7. PageRank.md",
+                "file": "8. Benchmarking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "7. PageRank.md",
+                "file": "8. Benchmarking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "7. PageRank.md"
+                "file": "8. Benchmarking.md"
               }
             }
           }
@@ -147,10 +146,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "80fb41ff2e3da25e",
+  "active": "75c889165352fb83",
   "lastOpenFiles": [
-    "8. Benchmarking.md",
     "7. PageRank.md",
+    "8. Benchmarking.md",
     "6. Ranking models.md",
     "3. Thesaurus and Word-Sense Disambiguation.md",
     "5. Tolerant Retrieval.md",
