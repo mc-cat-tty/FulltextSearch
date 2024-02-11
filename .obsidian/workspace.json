@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "8. Benchmarking.md",
+                "file": "7. PageRank.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "8. Benchmarking.md",
+                "file": "7. PageRank.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "8. Benchmarking.md",
+                "file": "7. PageRank.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "8. Benchmarking.md"
+                "file": "7. PageRank.md"
               }
             }
           }
@@ -148,19 +148,19 @@
   },
   "active": "75c889165352fb83",
   "lastOpenFiles": [
-    "7. PageRank.md",
     "8. Benchmarking.md",
-    "6. Ranking models.md",
+    "A. NLTK.md",
     "3. Thesaurus and Word-Sense Disambiguation.md",
-    "5. Tolerant Retrieval.md",
+    "7. PageRank.md",
     "4. Indici.md",
-    "B. DBMS for full-text indexing & searching.md",
+    "5. Tolerant Retrieval.md",
+    "6. Ranking models.md",
+    "Z. Project.md",
+    "2. Full-text preprocessing.md",
     "1. Intro.md",
     "C. Sentiment analysis.md",
+    "B. DBMS for full-text indexing & searching.md",
     "D. Word2vec.md",
-    "A. NLTK.md",
-    "2. Full-text preprocessing.md",
-    "Z. Project.md",
     "Untitled.md",
     "Esercizi/Whoosh/text_repo/MAIN_qjlvf94ycupwf5d0.seg",
     "Esercizi/Whoosh/text_repo/_MAIN_1.toc",
